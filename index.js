@@ -1,3 +1,4 @@
+//-----------obj creation with functions 
 const obj={
   id:3,
   name:'ramesh',
