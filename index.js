@@ -59,8 +59,6 @@ obj.setid(50);
 id=obj.getid();
 console.log('id:',id);
 
-
-
 console.log(obj.setclass(7))
 console.log(obj.getclass())
 console.log(obj.setage(23))
