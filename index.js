@@ -67,3 +67,18 @@ console.log(obj.setdob('22/12/1996'))
 console.log(obj.getdob())
 console.log(obj.setlocation('japan'))
 console.log(obj.getlocation())
+
+
+function person(id){
+  let id=id;
+  this.name='hi';
+  this.setid=function(id){
+    id=id;
+  }
+  this.getid=function(){
+    return id;
+  }
+}
+const person=new person('10');
+person.setid(2)
+console.log(person.getid())
